@@ -1,3 +1,23 @@
 body{
-    background-color: rgb(94, 129, 119);
+    background-color:#8C93A8;
+    border: #B5C2B7;
 }
+div {
+    color:rgb(41, 37, 37);
+    font-size: large;
+    width:500px;
+    height:50px;
+    background-color:#B5C2B7;
+    position:relative;
+    left: 420px;
+    top:50px;
+    display:center;
+    }
+    img{
+       width: 400px; 
+       height: 400px;
+       position: relative;
+       display: center;
+       left: 420px;
+       top: 70px;
+    }
