@@ -1,0 +1,14 @@
+body{
+    background-color: #A57548;
+}
+html{
+    margin: 0px;
+    padding: 0px;
+}
+div {
+    color:rgb(41, 37, 37);
+    width:1000px;
+    height:50px;
+    background-color:#FCD7AD;
+    position: relative;
+    }
