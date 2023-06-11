@@ -1,0 +1,22 @@
+body{
+    background-color: #8C93A8;
+}
+div {
+    color:rgb(41, 37, 37);
+    font-size: large;
+    width:500px;
+    height:50px;
+    background-color:#B5C2B7;
+    position:relative;
+    left:20px;
+    top:10px;
+    display:center;
+    }
+    video{
+        position:relative;
+        left:10px;
+    }
+    audio{
+        position:relative;
+        left:20px;
+    }

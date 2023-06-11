@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFORMATION</title>
+    <link rel="stylesheet" href="./assets/stylee.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <th>Pour vous distraire</th>
+            <th>Enregistrer-vous</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 
+            <ul class="divertissement" id="divertissement">
+            <li><video src="./assets/video.mp4" controls class="juste"></video></li>
+            <li> <audio src="./assets/Flashlight.mp3" controls class="juste"></audio></li>
+            </ul>
+                </td>
+           <td>
+            <ul>
+                <li>
+                    <article>
+                    <h1>RECENSEMENT ITAOSY</h1>
+                    <P>On invite tout le monde de s'inscrire dans la base de donnée<br>
+                        Veuillez apporter votre CIN avec vous
+                    </P>
+                </article></li>
+                <li><form action="">
+                    <div class="form-group">
+                         <label for="imput-nom">Nom:</label>
+                        <input type="text" placeholder="Entrer votre nom" name="user_nom" id="imput-nom" class="input_nom">
+                    </div>
+                    <div class="form-group">
+                         <label for="imput-prenom">Prénom:</label>
+                        <input type="text" placeholder="Entrer votre prénom" name="user_prenom" id="imput-prenom" class="input_prenom">
+                    </div>
+                    <div class="form-group">
+                        <label for="imput-cin">CIN:</label>
+                       <input type="number" placeholder="Entrer votre CIN" name="user_cin" id="imput-cin" class="input_cin">
+                   </div>
+                   <div class="form-group">
+                    <label for="imput-date">Date de naissance:</label>
+                   <input type="date" placeholder="Entrer votre date de naissance" name="user_date" id="imput-date" class="input_date">
+               </div>
+               <div class="form-group">
+                <label for="imput-lieu">Lieu de naissance:</label>
+               <input type="text" placeholder="Entrer votre lieu de naissance" name="user_lieu" id="imput-lieu" class="input_lieu">
+            </div>
+            <div class="form-group">
+                <label for="imput-age">Age:</label>
+               <input type="number" placeholder="Entrer votre age" name="user_age" id="imput-age" class="input_age">
+            </div>
+            <div class="form-group">
+                <label for="">Selection de quartier:</label>
+                <select name="Quartier" id="">
+                    <option value="">AMBOATAVO</option>
+                    <option value="">FIADANANA</option>
+                    <option value="">ANJAZAMIHIRA</option>
+                    <option value="">AMBOLOTARA</option>
+                    <option value="">ANDRANONAHOATRA</option>
+                    <option value="">AMBOHIJANAMASOANDRO</option>
+                    <option value="">VINANY</option>
+                    <option value="">BEHENJY</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="imput-age">Couleur:</label>
+               <input type="color" placeholder="Entrer votre couleur préféréé" name="user_couleur" id="imput-couleur" class="input_couleur">
+            </div>
+                    <div class="form-group">
+                        <label for="">Sexe:</label>
+                        <input type="radio" value="Male" name="sexe">
+                        <label for="">Male</label>
+                        <input type="radio" value="Female" name="sexe">
+                        <label for="">Female</label>
+                    </div>
+                    <div class="form-group">
+                    <a href="connexion.html" target="_blank">LOG IN</a> 
+                    <input type="submit">
+                </div></li>
+            </ul>
+           </td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
